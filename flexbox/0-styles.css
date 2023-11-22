@@ -184,13 +184,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-  }
-  
-  .row::after {
-    content: '';
-    display: table;
-    clear: both;
-    display: flex;
+    display: flex; /* Added display flex */
   }
   
   [class*='col-'] {
