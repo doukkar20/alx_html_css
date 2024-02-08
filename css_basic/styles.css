@@ -1,0 +1,36 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main {
+    flex: auto;
+    background-color: lightskyblue;
+    flex-direction: row;
+    display: flex;
+}
+
+article {
+    align-items: center;
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer
+{
+    display: flex ;
+    margin-top: 20px;
+    background-color: blue;
+}
